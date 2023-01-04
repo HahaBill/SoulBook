@@ -14,7 +14,6 @@ function generateToken(user) {
     }, SECRET_KEY, { expiresIn: '1h'});
 }
 
-
 /*
 This file implements register and login
 Password authentication with mongoose and bcrypt: https://www.mongodb.com/blog/post/password-authentication-with-mongoose-part-1
